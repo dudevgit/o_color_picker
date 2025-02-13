@@ -16,7 +16,7 @@ class OColorBoxDecoration extends Equatable {
 
   /// Retrieves [BoxDecoration] depends on border color
   BoxDecoration getBoxDecoration(BuildContext context) => BoxDecoration(
-        color: color ?? Theme.of(context).backgroundColor,
+        color: color ?? Theme.of(context).colorScheme.surface,
         border: border?.border,
         borderRadius: border?.borderRadius,
       );

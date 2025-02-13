@@ -11,7 +11,7 @@ void main() {
       final bgColor = Colors.blue;
       await tester.pumpWidget(
         MaterialApp(
-          theme: ThemeData(backgroundColor: bgColor),
+          theme: ThemeData(colorScheme: ColorScheme.light(surface: bgColor)),
           home: Material(
             child: Builder(
               builder: (context) {
@@ -36,7 +36,7 @@ void main() {
       final givenColor = Colors.red;
       await tester.pumpWidget(
         MaterialApp(
-          theme: ThemeData(backgroundColor: bgColor),
+          theme: ThemeData(colorScheme: ColorScheme.light(surface: bgColor)),
           home: Material(
             child: Builder(
               builder: (context) {
@@ -62,7 +62,7 @@ void main() {
       final bgColor = Colors.blue;
       await tester.pumpWidget(
         MaterialApp(
-          theme: ThemeData(backgroundColor: bgColor),
+          theme: ThemeData(colorScheme: ColorScheme.light(surface: bgColor)),
           home: Material(
             child: Builder(
               builder: (context) {
