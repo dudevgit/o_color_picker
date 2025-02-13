@@ -19,6 +19,4 @@ Visit [pub.dev -> install](https://pub.dev/packages/o_color_picker/install) and 
 If you have no idea, how to show the color picker, you can use [o_popup](https://pub.dev/packages/o_popup). Sample combination of both packages you can find in [example/demo.dart](https://github.com/owczaro/o_color_picker/blob/master/example/lib/demo.dart)
 
 
-## Commercial Use
 
-If you use this code in commercial project, please donate me via GitHub Sponsors. I do the same for packages which I use, because it ensures stable development for all of us!
